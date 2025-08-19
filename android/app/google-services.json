@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "689572458905",
+    "project_id": "gloriaapp-2a653",
+    "storage_bucket": "gloriaapp-2a653.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689572458905:android:91f9742df05274d174e308",
+        "android_client_info": {
+          "package_name": "com.example.gloriaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbr_1oKtrJvjIol960j6ZZMu7gysNXd38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
