@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:gloriaapp/pages/auth_pages/login.dart';
+import 'package:gloriaapp/pages/auth_pages/onboarding_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -39,7 +39,7 @@ class WelcomePage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {                
                 Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => const LoginPage()),
+                  MaterialPageRoute(builder: (context) => const OnboardingPage()),
                 );
               },
               child: const Text('Get Started'),

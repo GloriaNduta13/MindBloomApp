@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:gloriaapp/pages/providers/theme_provider.dart';
 import 'package:gloriaapp/pages/bulk_sms/sms_credentials_provider.dart';
 import 'package:gloriaapp/pages/auth_pages/onboarding_page.dart';
+import 'package:gloriaapp/pages/auth_pages/login.dart';
 import 'package:gloriaapp/pages/welcome_page/welcome.dart';
 import 'package:gloriaapp/pages/app_pages/home.dart';
 
@@ -62,7 +63,7 @@ class AuthGate extends StatelessWidget {
       if (apiKey == null || apiKey.isEmpty) {
         return const OnboardingPage();
       } else {
-        return const HomePage();
+        return const LoginPage();
       }
     }
   }

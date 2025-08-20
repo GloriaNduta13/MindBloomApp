@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
       if (response.session != null) {
         if (mounted) {
           Navigator.of(context).pushAndRemoveUntil(
-            MaterialPageRoute(builder: (context) => const AuthGate()),
+            MaterialPageRoute(builder: (context) => const HomePage()),
             (route) => false,
           );
         }
@@ -58,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
       if (user != null) {
         if (mounted) {
           Navigator.of(context).pushAndRemoveUntil(
-            MaterialPageRoute(builder: (context) => const AuthGate()),
+            MaterialPageRoute(builder: (context) => const HomePage()),
             (route) => false,
           );
         }
@@ -81,7 +81,7 @@ class _LoginPageState extends State<LoginPage> {
       );
       if (mounted) {
         Navigator.of(context).pushAndRemoveUntil(
-          MaterialPageRoute(builder: (context) => const AuthGate()),
+          MaterialPageRoute(builder: (context) => const HomePage()),
           (route) => false,
         );
       }

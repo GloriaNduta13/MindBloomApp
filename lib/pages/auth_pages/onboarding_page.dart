@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:gloriaapp/pages/app_pages/home.dart';
+import 'package:gloriaapp/pages/auth_pages/login.dart';
 
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({super.key});
@@ -25,7 +25,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
         const SnackBar(content: Text('Credentials saved successfully!')),
       );
       Navigator.of(context).pushAndRemoveUntil(
-        MaterialPageRoute(builder: (context) => const HomePage()),
+        MaterialPageRoute(builder: (context) => const LoginPage()),
         (route) => false,
       );
     }
