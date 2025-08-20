@@ -2,21 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:provider/provider.dart';
-import 'theme_provider.dart';
-import 'sms_credentials_provider.dart';
+import 'package:gloriaapp/pages/providers/theme_provider.dart';
+import 'package:gloriaapp/pages/bulk_sms/sms_credentials_provider.dart';
 
-import 'profile.dart';
-import 'settings.dart';
-import 'reflection.dart';
-import 'prompt.dart';
-import 'archive.dart';
-import 'persona.dart';
-import 'planner.dart';
-import 'tasks.dart';
-import 'journal.dart';
-import 'welcome.dart';
-import 'send_sms_page.dart';
-import 'sms_history.dart';
+import 'package:gloriaapp/pages/settings/profile.dart';
+import 'package:gloriaapp/pages/settings/settings.dart';
+import 'package:gloriaapp/pages/app_pages/reflection.dart';
+import 'package:gloriaapp/pages/app_pages/prompt.dart';
+import 'package:gloriaapp/pages/app_pages/archive.dart';
+import 'package:gloriaapp/pages/app_pages/persona.dart';
+import 'package:gloriaapp/pages/app_pages/planner.dart';
+import 'package:gloriaapp/pages/app_pages/tasks.dart';
+import 'package:gloriaapp/pages/app_pages/journal.dart';
+import 'package:gloriaapp/pages/welcome_page/welcome.dart';
+import 'package:gloriaapp/pages/bulk_sms/send_sms_page.dart';
+import 'package:gloriaapp/pages/bulk_sms/sms_history.dart';
 
 Future<String?> fetchUserName() async {
   final user = Supabase.instance.client.auth.currentUser;

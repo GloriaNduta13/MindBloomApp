@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'pdf_export.dart';
-import 'excel_export.dart';
+import 'package:gloriaapp/pages/export_pages/pdf_export.dart';
+import 'package:gloriaapp/pages/export_pages/excel_export.dart';
 
 class SmsHistoryPage extends StatefulWidget {
   const SmsHistoryPage({super.key});

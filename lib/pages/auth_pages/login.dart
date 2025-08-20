@@ -3,9 +3,9 @@ import 'package:flutter/foundation.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:provider/provider.dart';
-import 'home.dart';
-import 'sms_credentials_provider.dart';
-import 'main.dart'; 
+import 'package:gloriaapp/pages/app_pages/home.dart';
+import 'package:gloriaapp/pages/bulk_sms/sms_credentials_provider.dart';
+import '../../main.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

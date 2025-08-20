@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'home.dart';
+import 'package:gloriaapp/pages/app_pages/home.dart';
 
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({super.key});

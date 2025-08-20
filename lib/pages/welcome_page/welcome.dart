@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'login.dart';
+import 'package:gloriaapp/pages/auth_pages/login.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});

@@ -4,11 +4,11 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'theme_provider.dart';
-import 'sms_credentials_provider.dart';
-import 'onboarding_page.dart';
-import 'welcome.dart';
-import 'home.dart';
+import 'package:gloriaapp/pages/providers/theme_provider.dart';
+import 'package:gloriaapp/pages/bulk_sms/sms_credentials_provider.dart';
+import 'package:gloriaapp/pages/auth_pages/onboarding_page.dart';
+import 'package:gloriaapp/pages/welcome_page/welcome.dart';
+import 'package:gloriaapp/pages/app_pages/home.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
